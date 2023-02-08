@@ -17,6 +17,6 @@ Console.WriteLine("Введите координату Y второй точки
 int yB = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите координату Z второй точки:");
 int zB = int.Parse(Console.ReadLine());
-Math.Round(double number = Math.Sqrt((xB-xA)*(xB-xA) + (yB-yA)*(yB-yA) + (zB-zA)*(zB-zA)));
+double number = Math.Round(Math.Sqrt((xB-xA)*(xB-xA) + (yB-yA)*(yB-yA) + (zB-zA)*(zB-zA)),2);
 
 Console.WriteLine($"Длина отрезка между заданными точками равна {number}");
